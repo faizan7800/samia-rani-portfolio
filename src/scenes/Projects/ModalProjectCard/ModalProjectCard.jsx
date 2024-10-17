@@ -10,7 +10,7 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const ModalProjectCard = () => {
   const { id } = useParams();
-  const { image, title, links, technologies } = projects.find(
+  const { image, title, description } = projects.find(
     (p) => id === p.id,
   );
   const { isVisible, toggleModal } = useModal();
@@ -34,36 +34,11 @@ const ModalProjectCard = () => {
         <div className={s.cardBody}>
           <h3 className={s.title}>{title}</h3>
 
-          <div className={s.technologies}>
-            {technologies.map((tech, index) => (
-              <span key={index}>{tech}</span>
-            ))}
+          <div style={{textAlign:'center'}}>
+            {description}
           </div>
         </div>
 
-        <div className={s.cardFooter}>
-          {!!links.site && (
-            <Button
-              style={{ width: '12rem' }}
-              className="primary"
-              href={links.site}
-              target="_blank"
-            >
-              <BiLinkExternal /> &nbsp; View project
-            </Button>
-          )}
-
-          {!!links.repo && (
-            <Button
-              style={{ width: '12rem' }}
-              className="primary"
-              href={links.repo}
-              target="_blank"
-            >
-              <BiLinkExternal /> &nbsp; Know more
-            </Button>
-          )}
-        </div>
       </div>
     </Modal>
   );

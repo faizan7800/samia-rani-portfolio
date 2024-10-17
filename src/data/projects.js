@@ -1,147 +1,69 @@
 const data = [
   {
     id: '1',
-    title: 'SallyPOS',
+    title: 'Mathematical Book Conversion (1000 Pages, 64 Chapters)',
     description:
-      'Point of Sale (POS) for iOS and Android. Optimized for Smartphones and Tablets. SallyPOS is the ultimate tool to help manage your sales and streamline your operations.',
+      'I had the opportunity to work on an extensive project on Fiverr, converting a comprehensive mathematical book of nearly 1000 pages, divided into 64 chapters, into LaTeX. This project involved meticulous formatting of complex mathematical content, equations, and illustrations. My expertise in handling large documents, particularly those related to mathematics, allowed me to deliver a high-quality, professionally formatted book. This project not only tested my attention to detail but also reinforced my ability to manage time effectively while maintaining precision across such a vast document.',
     image: {
-      src: 'https://res.cloudinary.com/dx6tl6aa2/image/upload/v1721484550/portfolio/projects/SallyPOS/1111_mfdzqt.png',
+      src: 'https://i.imghippo.com/files/wmhAT1729172475.jpg',
       placeholderSrc:
-        'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
-    },
-    links: {
-      site: 'https://apps.apple.com/za/app/sally-pos/id6446204909',
-    },
-    technologies: [
-      '#typescript',
-      '#expo',
-      '#react-native',
-      '#react-navigation',
-      '#react-native-reanimated',
-      '#payments',
-      '#lottie',
-      '#valtio',
-      '#i18next',
-      '#firebase',
-    ],
+        'Project 1',
+    }
   },
   {
     id: '2',
-    title: 'React Native Yoco',
+    title: 'Handwritten Note Conversion (18 Pages)',
     description:
-      'Core maintainer and contributor of React Native native module for Yoco SDK. It allows app developers to integrate with Yoco card machines to accept in-person payments from within their application.',
+      'In another project on Fiverr, I was tasked with converting 18 pages of handwritten notes into LaTeX. This project required a sharp eye for detail, as I meticulously transcribed complex mathematical equations and text into a clean, professional format. I ensured the accurate translation of mathematical symbols, structure, and content while maintaining the integrity of the original notes. This project demonstrated my ability to work efficiently with handwritten materials and deliver high-quality results that met my clients expectations.',
     image: {
-      src: 'https://res.cloudinary.com/dx6tl6aa2/image/upload/v1727717856/portfolio/projects/react-native-yoco_b3bjph.png',
+      src: 'https://i.ibb.co/pR4P1L8/pr2.jpg',
       placeholderSrc:
-        'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
-    },
-    links: {
-      repo: 'https://github.com/tolypash/react-native-yoco',
-    },
-    technologies: [
-      '#react-native',
-      '#typescript',
-      '#swift',
-      '#kotlin',
-      '#expo modules api',
-      '#turbo modules',
-      '#npm',
-      '#payments',
-      '#sdk',
-    ],
+        'Project 2',
+    }
   },
   {
     id: '3',
-    title: 'Syntho',
+    title: 'Article Conversion from Word to LaTeX',
     description:
-      'Syntho is an electronic music education application. Connect with like minded users as you build your own custom profile, communicate and share music via the newsfeed.',
+      "I worked on a project on Fiverr where I was responsible for converting a Word document of a research article into LaTeX format. This task involved ensuring the precise conversion of the article's structure, including formatting sections, equations, tables, and references, while maintaining the academic integrity of the content. I carefully formatted the article to meet publication standards and client specifications, demonstrating my expertise in handling research documents and delivering them in a professional, publishable format.",
     image: {
-      src: 'https://res.cloudinary.com/dx6tl6aa2/image/upload/v1671564532/portfolio/projects/Syntho/Screenshot_2022-12-20_at_21.26.17_1_c59hzo.jpg',
+      src: 'https://i.ibb.co/BzQ7fN4/pr3.jpg',
       placeholderSrc:
-        'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
-    },
-    links: {
-      site: 'https://apps.apple.com/us/app/syntho/id1615419392',
-    },
-    technologies: [
-      '#typescript',
-      '#react-native',
-      '#react-native-web',
-      '#mobx-state-tree',
-      '#expo',
-      '#i18next',
-      '#react-navigation',
-      '#sentry',
-    ],
+        'Project 3',
+    }
   },
   {
     id: '4',
-    title: 'Minfin - Currency Rates',
+    title: 'Mathematics Textbook Conversion (200 Pages)',
     description:
-      'Minfin Currency - application with all necessary information about currency: from currency rates - to the nearest places where you can exchange currency in your city.',
+      "I successfully converted a 200-page scanned PDF of a mathematics textbook into a fully editable LaTeX format. The project required precision in transcribing complex mathematical notations, equations, and diagrams, ensuring accuracy in all terms and properties discussed. The converted LaTeX document was formatted for easy editing, preserving the integrity of the original content, including operations with fractions, equivalent fractions, and fundamental laws of fractions, as shown in Chapter 4. This project demonstrates my expertise in handling complex documents and my proficiency in LaTeX for creating professional, structured mathematical publications.",
     image: {
-      src: 'https://res.cloudinary.com/dx6tl6aa2/image/upload/v1671563302/portfolio/projects/minfin/Screenshot_2022-12-20_at_21.06.43_vl5h6k.jpg',
+      src: 'https://i.ibb.co/CbsPjKb/pr4.jpg',
       placeholderSrc:
-        'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
-    },
-    links: {
-      site: 'https://apps.apple.com/us/app/minfin-currency-rates/id1574863878',
-    },
-    technologies: [
-      '#typescript',
-      '#react-native',
-      '#mobx-keystone',
-      '#i18next',
-      '#firebase-analytics',
-      '#google-maps',
-    ],
+        'Project 4',
+    }
   },
   {
     id: '5',
-    title: 'Apiko Marketplace',
+    title: 'Handwritten Notes to LaTeX Conversion (15 Pages)',
     description:
-      'An online marketplace made with React. The project was developed on 8th Apiko Intensive.',
+      "For this project, I transcribed 15 pages of handwritten notes on LRC circuits and other advanced mathematical concepts into a clean, organized LaTeX document. The task required careful attention to detail, especially in rendering complex equations, diagrams, and solutions related to circuit theory. The final output was a fully editable and professionally formatted LaTeX file, allowing for easy updates and modifications. This project highlights my ability to work with handwritten content and convert it into a polished technical document, ensuring clarity and accuracy in mathematical and scientific presentations.",
     image: {
-      src: 'https://res.cloudinary.com/dx6tl6aa2/image/upload/v1628348072/portfolio/projects/react-marketplace/apiko-marketplace-lg_xppe9n.jpg',
+      src: 'https://i.ibb.co/tPCzJfc/pr5.jpg',
       placeholderSrc:
-        'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
-    },
-    links: {
-      repo: 'https://github.com/vsnaichuk/apiko-marketplace-app',
-    },
-    technologies: [
-      '#react',
-      '#redux',
-      '#socket.io',
-      '#scss',
-      '#formik',
-      '#react-window',
-      '#restapi',
-    ],
+        'Project 5',
+    }
   },
   {
     id: '6',
-    title: 'eCommerce Mobile App',
+    title: 'Handwritten Assignment with Figures to LaTeX (15 Pages)',
     description:
-      'A Mobile eCommerce application built with React Native that includes cart functionality, push notifications, user authentication and user orders',
+      "In this project, I converted 15 pages of handwritten notes and figures into a well-structured LaTeX document. The content primarily focused on scientific concepts, including detailed diagrams like the Freutagium layer in relation to Earth's shape. I accurately recreated the hand-drawn figures and equations, ensuring they were clear and professional in the final output. The LaTeX document maintained high standards of readability and organization, making it suitable for academic or research purposes. This project showcases my ability to handle both textual and graphical content with precision in LaTeX.",
     image: {
-      src: 'https://res.cloudinary.com/dx6tl6aa2/image/upload/v1628348073/portfolio/projects/rn-shop/rn-shop-lg_fofglf.jpg',
+      src: 'https://i.ibb.co/10dNkQS/pr6.jpg',
       placeholderSrc:
-        'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
-    },
-    links: {
-      repo: 'https://github.com/vsnaichuk/RN-shop',
-    },
-    technologies: [
-      '#react-native',
-      'expo',
-      '#redux',
-      '#redux-toolkit',
-      '#react-navigation',
-      '#nodejs',
-      '#express',
-      '#mongodb',
-    ],
+        'Project 6',
+    }
   },
 ];
 

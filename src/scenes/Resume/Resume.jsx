@@ -11,7 +11,7 @@ import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 const resumeLink =
-  'https://raw.githubusercontent.com/vsnaichuk/vsnaichuk/master/CV.pdf';
+  'https://raw.githubusercontent.com/faizan7800/samia-rani-portfolio/main/EJCzyN.pdf';
 
 const Resume = () => {
   const pdfWrapper = useRef(null);
@@ -34,6 +34,7 @@ const Resume = () => {
     });
   };
 
+  const [cvPage, setCvPage] = useState(1);
   return (
     <BaseLayout>
       <div className={s.content}>
@@ -61,6 +62,7 @@ const Resume = () => {
         <div className={s.pdfWrapper} ref={pdfWrapper}>
           <Document
             loading={<LinerProgress />}
+            pageLayout="twoColumnLeft"
             file={{
               url: resumeLink,
             }}
@@ -69,9 +71,18 @@ const Resume = () => {
               onLoadSuccess={removeTextLayerOffset}
               loading={<LinerProgress />}
               width={pdfPageWidth}
-              pageNumber={1}
+              pageNumber={cvPage}
             />
           </Document>
+        </div>
+        <div className={s.buttons}>
+          <Button 
+          style={{ margin: 'auto', width: '15rem' }}
+          className="primary" onClick={()=>{if(cvPage > 0) {let decPage = cvPage - 1; setCvPage(decPage)}}} disabled={cvPage===1}>Prev</Button>
+          <Button
+          style={{ margin: 'auto', width: '15rem' }}
+          className="primary"
+           onClick={()=>{if(cvPage <= 4) {let incPage = cvPage + 1; setCvPage(incPage)}}} disabled={cvPage===4}>Next</Button>
         </div>
       </div>
     </BaseLayout>

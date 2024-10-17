@@ -1,6 +1,6 @@
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import handIcon from '../../../assets/hand.png';
-import homeMainIcon from '../../../assets/home-main-pic.webp';
+import homeMainIcon from '../../../assets/main-img.png';
 import Typewriter from '../../../components/UIElements/Typewriter/Typewriter';
 import s from './MainSection.module.scss';
 
@@ -26,8 +26,8 @@ const MainSection = () => {
         <div className={s.typewriter}>
           <Typewriter
             strings={[
-              'Continuously Learning',
-              'React Native Developer',
+              'Applied Mathematician',
+              'Latex Specialist',
             ]}
             wrapperClassName={s.typewriterInner}
             cursorClassName={s.typewriterCursor}

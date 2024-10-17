@@ -13,6 +13,10 @@
 //theme
 @import "theme";
 
+::selection {
+  background-color: #4114949a;
+}
+
 html, body {
   font-size: 16px;
   margin: 0;

@@ -4,31 +4,38 @@ const AboutTextCard = () => {
   return (
     <div className={s.card}>
       <p style={{ textAlign: 'justify' }}>
-        Hi Everyone, I am{' '}
-        <span className={s.purple}>Snaichuk Volodymyr, </span>
-        <br />a software engineer currently based in{' '}
-        <span className={s.purple}>Krakow, Poland.</span>
+        <span className={s.purple}>Why Choose Me?</span>
         <br />
-        <br />
-        I have a Bachelor's degree in Computer Science and
-        <br />
-        Master's degree in Project Management from Ternopil Academy.
-        <br />
-        <br />
-        My hobbies beyond programming:
-      </p>
-
-      <ul style={{ marginLeft: 14 }}>
+        <ul style={{ marginLeft: 14 }}>
         <li className={s.aboutActivity}>
-          - Playing Games
+          - Over 2 years of experience in delivering top-notch LaTeX conversion services.
         </li>
         <li className={s.aboutActivity}>
-          - Reading
+          - Successfully completed over 50 projects, ranging from research articles to full-length books.
         </li>
         <li className={s.aboutActivity}>
-          - Travelling
+          - Proven track record of published research in high-impact journals.
+        </li>
+        <li className={s.aboutActivity}>
+          - Collaboration with leading international institutes, such as the Institut Mathematik-Coaching in Switzerland.
         </li>
       </ul>
+      </p>
+
+<p>
+<span className={s.purple}>What I Offer?</span>
+      <ul style={{ marginLeft: 14 }}>
+        <li className={s.aboutActivity}>
+          - LaTeX Document Conversion
+        </li>
+        <li className={s.aboutActivity}>
+          - Research Support
+        </li>
+        <li className={s.aboutActivity}>
+          - Academic Collaboration
+        </li>
+      </ul>
+    </p>
     </div>
   );
 };

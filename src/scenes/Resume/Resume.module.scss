@@ -46,6 +46,27 @@
   font-size: 12px;
 }
 
+.buttons{
+  width: 50%;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons button{
+  background-color: #8a4ca8;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1.3rem;
+}
+
+.buttons Button:disabled{
+  background-color: gray;
+}
+
+.buttons Button:disabled:hover{
+  background-color: gray;
+}
 
 @media (max-width: 600px) {
   .header {
@@ -69,3 +90,4 @@
     font-size: 4rem;
   }
 }
+

@@ -6,7 +6,8 @@ import s from './Footer.module.scss';
 const Footer = () => {
 
   const handleWhatsapp = ()=>{
-    
+    const url = `https://wa.me/+923356336535?text=${encodeURIComponent("Hello, Samia Rani. I would like to ask about your Latex Services.")}`;
+    window.location.href = url;
   }
     // let date = new Date();
   // let year = date.getFullYear();
@@ -15,7 +16,7 @@ const Footer = () => {
     <div className={s.footer}>
       <div className={s.container}>
         <div className={s.copyright}>
-          <h1>Made with ❤️ in 2024</h1>
+          <h1>Made with ❤️ in 2024 by Samia Rani</h1>
         </div>
 
         <div className={s.body}>

@@ -16,41 +16,27 @@ const TechSkills = () => {
   return (
     <ul className={s.container}>
       <li className={s.techIcon}>
-        <SiTypescript />
+        <span>LaTeX Typesetting</span>
       </li>
       <li className={s.techIcon}>
-        <DiJavascript1 />
+      <span>Technical Writing</span>
       </li>
       <li className={s.techIcon}>
-        <DiSwift />
+      <span>Mathematical Modeling</span>
       </li>
       <li className={s.techIcon}>
-        <SiKotlin />
+      <span>Research & Data Analysis</span>
       </li>
       <li className={s.techIcon}>
-        <DiReact />
+      <span>Numerical Methods</span>
       </li>
       <li className={s.techIcon}>
-        <SiRedux />
+      <span>Freelancing</span>
       </li>
       <li className={s.techIcon}>
-        <SiFirebase />
+      <span>Collaboration</span>
       </li>
-      <li className={s.techIcon}>
-        <SiSocketDotIo />
-      </li>
-      <li className={s.techIcon}>
-        <SiExpo />
-      </li>
-      <li className={s.techIcon}>
-        <DiGit />
-      </li>
-      <li className={s.techIcon}>
-        <SiJest />
-      </li>
-      <li className={s.techIcon}>
-        <BsTerminalFill />
-      </li>
+     
     </ul>
   );
 };

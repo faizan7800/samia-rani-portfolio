@@ -24,7 +24,7 @@ const ProjectCard = ({ id, image, title, description }) => {
 
         <div className={s.cardBody}>
           <h3 className={s.title}>{title}</h3>
-          <p className={s.description}>{description}</p>
+          <p className={s.description}>{description?.length > 150 ? description.trim().slice(0,150) + "..." : description}</p>
         </div>
       </div>
     </li>

@@ -26,7 +26,7 @@ const Footer = () => {
                 href="mailto:samiarani91@gmail.com"
                 target="_blank"
                 rel="noreferrer"
-                aria-label="github"
+                aria-label="email"
               >
                 <MdEmail />
               </a>
@@ -46,7 +46,7 @@ const Footer = () => {
                 href="https://www.fiverr.com/samia_cooder"
                 target="_blank"
                 rel="noreferrer"
-                aria-label="TelegramPlane"
+                aria-label="fiverr"
               >
                 <TbBrandFiverr />
               </a>

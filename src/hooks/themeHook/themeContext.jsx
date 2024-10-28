@@ -8,12 +8,12 @@ import {
 const DARK_LOCAL_STORAGE_KEY = 'dark';
 
 export const ThemeContext = createContext({
-  dark: true,
+  dark: false,
   toggle: () => {},
 });
 
 export const ThemeProvider = ({ children }) => {
-  const [dark, setDark] = useState(true); // dark by default
+  const [dark, setDark] = useState(false); // dark by default
 
   const toggleTheme = useCallback(() => {
     setDark((prevDark) => {
@@ -35,7 +35,7 @@ export const ThemeProvider = ({ children }) => {
     );
 
     if (localValue === null) {
-      document.body.classList.add('dark');
+      document.body.classList.add('light');
     } else {
       setDark(localValue);
       document.body.classList.add(localValue ? 'dark' : 'light');

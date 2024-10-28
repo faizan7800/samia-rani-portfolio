@@ -1,0 +1,44 @@
+{
+  "name": "Samia Rani - Portfolio",
+  "short_name": "Samia Rani",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "/logo.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "/logo.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "/logo.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/logo.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "/logo.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#000",
+  "theme_color": "#181a27",
+  "description": "I’m Samia Rani, I am a Freelancer and a passionate mathematician with a Master's degree in Mathematics and a specialization in Fluid Mechanics. My academic journey has deepened my expertise in computational mathematics and numerical analysis, laying a strong foundation for my future ambitions in research.",
+  "dir": "ltr",
+  "lang": "en-US"
+}

@@ -36,8 +36,8 @@ const Resume = () => {
 
   const [cvPage, setCvPage] = useState(1);
   return (
-    <BaseLayout>
-      <div className={s.content}>
+    <BaseLayout layout="resume">
+      <div className={s.content} id='resume'>
         <div className={s.header}>
           <h1 className={s.title}>
             My <br /> Resume

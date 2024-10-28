@@ -1,52 +1,18 @@
 .content {
-  padding: 3rem 9rem 3rem;
-}
-
-
-
-.introduction {
-  color: var(--txt);
-  padding: 5rem 0 2rem;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.introductionText {
-  display: flex;
-  flex-direction: column;
-  word-spacing: .2rem;
-
-  .title {
-    font-size: 2.6rem;
-    text-align: center;
-  }
-
-  .description {
-    padding-top: 2.5rem;
-    font-size: 1.3rem;
-    text-align: left;
-    line-height: 1.8rem;
-
-    p {
-      margin: 2rem;
-    }
-  }
-}
-
-.purple {
-  color: var(--txt-secondary);
+  padding: 9rem 9rem 3rem;
 }
 
 .about {
   padding-left: .2rem;
   font-size: 1rem;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+  gap: 10px;
 }
 
+.aboutDescription {
+}
 
 .aboutImg {
   width: 40%;
@@ -58,6 +24,12 @@
     height: auto;
     display: block;
   }
+}
+
+
+.sectionTitle {
+  font-size: 2.6rem;
+  text-align: center;
 }
 
 .title {

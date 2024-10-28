@@ -5,10 +5,11 @@ import ModalProjectCard from '../scenes/Projects/ModalProjectCard/ModalProjectCa
 
 export const routes = {
   Home: '/',
-  About: '/about',
-  Projects: '/projects',
+  About: '#about',
+  Services: '#services',
+  Projects: '#projects',
   Project: '/project/:id',
-  Resume: '/resume',
+  Resume: '#resume',
 };
 
 const scenes = {
@@ -16,6 +17,7 @@ const scenes = {
   About: lazy(() => import('../scenes/About/About')),
   Projects: lazy(() => import('../scenes/Projects/Projects')),
   Resume: lazy(() => import('../scenes/Resume/Resume')),
+  Services: lazy(()=> import('../scenes/Services/Services'))
 };
 
 function LazyScene({ name }) {
@@ -36,19 +38,15 @@ function RootRoutes() {
       <Routes location={background || location}>
         <Route
           path={routes.Home}
-          element={<LazyScene name="Home" />}
-        />
-        <Route
-          path={routes.About}
-          element={<LazyScene name="About" />}
-        />
-        <Route
-          path={routes.Projects}
-          element={<LazyScene name="Projects" />}
-        />
-        <Route
-          path={routes.Resume}
-          element={<LazyScene name="Resume" />}
+          element={
+          <>
+        <LazyScene name="Home" />
+       <LazyScene name="About" />
+       <LazyScene name="Services" />
+       <LazyScene name="Projects" />
+       <LazyScene name="Resume" />
+          </>
+          }
         />
         <Route
           /*Modal*/ path={routes.Project}

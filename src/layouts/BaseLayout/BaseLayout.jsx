@@ -3,7 +3,7 @@ import Header from '../../components/Header/Header';
 import MainNavigation from '../../components/Navigation/MainNavigation/MainNavigation';
 import s from './BaseLayout.module.scss';
 
-const BaseLayout = ({ children }) => {
+const BaseLayout = ({ children, layout }) => {
   return (
     <div className={s.layout}>
       <Header>
@@ -11,8 +11,7 @@ const BaseLayout = ({ children }) => {
       </Header>
 
       <div className={s.container}>{children}</div>
-
-      <Footer />
+{layout ? <Footer/> : <></>}
     </div>
   );
 };

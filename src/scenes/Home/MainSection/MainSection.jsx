@@ -6,7 +6,7 @@ import s from './MainSection.module.scss';
 
 const MainSection = () => {
   return (
-    <section className={s.content}>
+    <section className={s.content} id='/'>
       <div className={s.header}>
         <div className={s.greetingContainer}>
           <h2 className={s.title}>

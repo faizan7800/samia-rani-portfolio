@@ -44,7 +44,7 @@ function RootRoutes() {
        <LazyScene name="About" />
        <LazyScene name="Services" />
        <LazyScene name="Projects" />
-       <LazyScene name="Resume" />
+       {/* <LazyScene name="Resume" /> */}
           </>
           }
         />

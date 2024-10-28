@@ -14,7 +14,7 @@ const scenes = {
   About: () => import('../../../scenes/About/About'),
   Services: () => import('../../../scenes/Services/Services'),
   Projects: () => import('../../../scenes/Projects/Projects'),
-  Resume: () => import('../../../scenes/Resume/Resume'),
+  // Resume: () => import('../../../scenes/Resume/Resume'),
 };
 
 const icons = {
@@ -22,7 +22,7 @@ const icons = {
   About: <AiOutlineUser />,
   Services: <BsPersonWorkspace/>,
   Projects: <AiOutlineFundProjectionScreen />,
-  Resume: <CgFileDocument />,
+  // Resume: <CgFileDocument />,
 };
 
 const Link = (props) => {

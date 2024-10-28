@@ -5,7 +5,7 @@ import ProjectCard from './ProjectCard/ProjectCard';
 
 const Projects = () => {
   return (
-    <BaseLayout>
+    <BaseLayout layout="projects">
       <div className={s.content} id='projects'>
         <h1 className={s.title}>
           Recent <strong className={s.purple}>Projects</strong>
